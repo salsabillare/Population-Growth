@@ -1,0 +1,41 @@
+#include <cs50.h>
+
+#include <stdio.h>
+
+int main(void)
+
+{
+
+int start, end, years = 0;
+
+// TODO: prompt start size
+
+do
+
+{ printf("Starting Population Size (>9): "); scanf("%d", &start);
+
+}
+
+July
+
+while (start < 9);
+
+// TODO: prompt end size
+
+do
+
+{
+
+printf("Ending Population Size (>9%d): ",start); scanf("%d", &end): }
+
+dibawah
+
+while (end <start);
+
+// TODO: calculate of years until reach threshold while (start < end)
+
+start start + start/3-start/4: years++;
+
+} // TODO: print of years printf("Years: %d\n", years): return 0;
+
+}
